@@ -40,3 +40,70 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto; 
+  padding: 20px; 
+  background-color: #f2f2f2; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.form-container label {
+  display: block; 
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+.form-container input[type="text"] {
+  width: 100%; 
+  padding: 5px; 
+  margin-bottom: 10px; 
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+}
+
+
+.form-container button {
+  padding: 10px 20px; 
+  background-color: #4caf50;
+  color: white; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; 
+}
+
+
+.form-container .error-message {
+  color: red; 
+  margin-top: 10px; 
+}
+
+
+
+.card-container {
+  max-width: 400px;
+  margin: 50px auto; 
+  padding: 20px; 
+  background-color: #f2f2f2; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  text-align: center; 
+}
+
+   
+.card-container h1 {
+  margin-bottom: 10px; 
+}
+
+  
+.card-container h2,
+.card-container h3 {
+  margin-top: 10px; 
+  margin-bottom: 5px; 
+}
+
